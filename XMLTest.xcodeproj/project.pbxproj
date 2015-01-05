@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F22C0E11A5994EC0091B47B /* BFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22C0E01A5994EC0091B47B /* BFPlayer.m */; };
+		2F22C0E41A59967A0091B47B /* BFParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22C0E31A59967A0091B47B /* BFParty.m */; };
+		2F22C0E61A5997440091B47B /* Party.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2F22C0E51A5997440091B47B /* Party.xml */; };
+		2F22C0E91A5997830091B47B /* BFPartyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22C0E81A5997830091B47B /* BFPartyParser.m */; };
 		2F27EFD81A598CAF000109A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F27EFD71A598CAF000109A0 /* Foundation.framework */; };
 		2F27EFDA1A598CAF000109A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F27EFD91A598CAF000109A0 /* CoreGraphics.framework */; };
 		2F27EFDC1A598CAF000109A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F27EFDB1A598CAF000109A0 /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		2F27EFF91A598CAF000109A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F27EFDB1A598CAF000109A0 /* UIKit.framework */; };
 		2F27F0011A598CB0000109A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F27EFFF1A598CB0000109A0 /* InfoPlist.strings */; };
 		2F27F0031A598CB0000109A0 /* XMLTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F27F0021A598CB0000109A0 /* XMLTestTests.m */; };
+		2F27F00E1A59900F000109A0 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F27F00D1A59900F000109A0 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F22C0DF1A5994EC0091B47B /* BFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPlayer.h; sourceTree = "<group>"; };
+		2F22C0E01A5994EC0091B47B /* BFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPlayer.m; sourceTree = "<group>"; };
+		2F22C0E21A59967A0091B47B /* BFParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFParty.h; sourceTree = "<group>"; };
+		2F22C0E31A59967A0091B47B /* BFParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFParty.m; sourceTree = "<group>"; };
+		2F22C0E51A5997440091B47B /* Party.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Party.xml; sourceTree = "<group>"; };
+		2F22C0E71A5997830091B47B /* BFPartyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPartyParser.h; sourceTree = "<group>"; };
+		2F22C0E81A5997830091B47B /* BFPartyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPartyParser.m; sourceTree = "<group>"; };
 		2F27EFD41A598CAF000109A0 /* XMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F27EFD71A598CAF000109A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F27EFD91A598CAF000109A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,8 @@
 		2F27EFFE1A598CB0000109A0 /* XMLTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLTestTests-Info.plist"; sourceTree = "<group>"; };
 		2F27F0001A598CB0000109A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F27F0021A598CB0000109A0 /* XMLTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLTestTests.m; sourceTree = "<group>"; };
+		2F27F00C1A59900F000109A0 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		2F27F00D1A59900F000109A0 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,15 @@
 				2F27EFE91A598CAF000109A0 /* Main.storyboard */,
 				2F27EFEC1A598CAF000109A0 /* BFViewController.h */,
 				2F27EFED1A598CAF000109A0 /* BFViewController.m */,
+				2F27F00C1A59900F000109A0 /* GDataXMLNode.h */,
+				2F27F00D1A59900F000109A0 /* GDataXMLNode.m */,
+				2F22C0DF1A5994EC0091B47B /* BFPlayer.h */,
+				2F22C0E01A5994EC0091B47B /* BFPlayer.m */,
+				2F22C0E21A59967A0091B47B /* BFParty.h */,
+				2F22C0E31A59967A0091B47B /* BFParty.m */,
+				2F22C0E71A5997830091B47B /* BFPartyParser.h */,
+				2F22C0E81A5997830091B47B /* BFPartyParser.m */,
+				2F22C0E51A5997440091B47B /* Party.xml */,
 				2F27EFEF1A598CAF000109A0 /* Images.xcassets */,
 				2F27EFDE1A598CAF000109A0 /* Supporting Files */,
 			);
@@ -229,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F22C0E61A5997440091B47B /* Party.xml in Resources */,
 				2F27EFF01A598CAF000109A0 /* Images.xcassets in Resources */,
 				2F27EFE21A598CAF000109A0 /* InfoPlist.strings in Resources */,
 				2F27EFEB1A598CAF000109A0 /* Main.storyboard in Resources */,
@@ -250,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F22C0E91A5997830091B47B /* BFPartyParser.m in Sources */,
 				2F27EFEE1A598CAF000109A0 /* BFViewController.m in Sources */,
+				2F22C0E11A5994EC0091B47B /* BFPlayer.m in Sources */,
+				2F22C0E41A59967A0091B47B /* BFParty.m in Sources */,
+				2F27F00E1A59900F000109A0 /* GDataXMLNode.m in Sources */,
 				2F27EFE81A598CAF000109A0 /* BFAppDelegate.m in Sources */,
 				2F27EFE41A598CAF000109A0 /* main.m in Sources */,
 			);
@@ -335,8 +363,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -368,7 +402,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -461,6 +501,7 @@
 				2F27F0081A598CB0000109A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F27F0091A598CB0000109A0 /* Build configuration list for PBXNativeTarget "XMLTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +510,7 @@
 				2F27F00B1A598CB0000109A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
