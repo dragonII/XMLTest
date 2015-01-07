@@ -22,6 +22,7 @@
 
 + (NSString *)dataFilePath:(BOOL)forSave
 {
+    NSLog(@"");
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *documentsPath = [documentsDirectory stringByAppendingPathComponent:@"Party.xml"];
