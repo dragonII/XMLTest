@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table><head>
+<column><type value="1">rownum</type></column>
+<column>
+<title>货品编号</title>
+<width>17%</width>
+<align>center</align>
+</column>
+<column>
+<title>货品</title>
+<width>17%</width>
+<align>center</align>
+</column>
+<column>
+<title>品牌分类</title>
+<width>17%</width>
+<align>center</align>
+</column>
+<column>
+<title>货品分类</title>
+<width>17%</width>
+<align>center</align>
+</column>
+<column>
+<title>销售价</title>
+<width>17%</width>
+<align>center</align>
+</column>
+<column>
+<title>操作</title>
+<width>15%</width>
+<align>center</align>
+</column>
+</head>
+<data>
+<row>
+<column>NUMBER2</column>
+<column>旺仔小馒头</column>
+<column>旺仔</column>
+<column>膨化食品</column>
+<column>2.00</column>
+<column> </column>
+</row>
+<row>
+<column>NUMBER1</column>
+<column>阿尔卑斯棒棒糖</column>
+<column>阿尔卑斯品牌</column>
+<column>糖果系列</column>
+<column>1.50</column>
+<column> </column>
+</row>
+</data>
+<turnpage>
+<itemcount>2</itemcount>
+<pagecount>1</pagecount>
+<pagesize>8</pagesize>
+<prepage><link></link><text>上一页</text></prepage>
+<nextpage><link></link><text>下一页</text></nextpage>
+<firstpage><link></link><text>首页</text></firstpage>
+<lastpage><link></link><text>末页</text></lastpage>
+</turnpage>
+</table>Thread was being aborted.

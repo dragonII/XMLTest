@@ -12,12 +12,14 @@
 #import "BFPartyParser.h"
 #import "BFParty.h"
 #import "BFPlayer.h"
+#import "NewXMLParser.h"
 
 @implementation BFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    /*
     self.party = [BFPartyParser loadParty];
     
     if(self.party != nil)
@@ -28,6 +30,12 @@
             NSLog(@"%@", player.name);
         }
     }
+     */
+    
+    NewXMLParser *parser = [[NewXMLParser alloc] init];
+    //[parser downloadXMLFromServer];
+    //[parser loadXMLFromServer];
+    [parser getElement];
     
     return YES;
 }
